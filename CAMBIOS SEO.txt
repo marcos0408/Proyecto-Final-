@@ -1,0 +1,39 @@
+index.html 
+Agregue estas keywords "TORTAS,CATALOGO,CON-AMOR-ES-MAS-RICO,SABORES,TEMATICA,TAMAÑO,RELLENO,OREO"
+Agregue esta description "Con amor es mas rico es una empresa familiar dedicada a la elaboracion de tortas y dulces"
+Cambie el title "Con amor es mas rico"
+
+catalogo.html 
+
+Agregue estas keywords "CATALOGO,PRODUCTOS,SABORES,RICOTA,FRUTOS,ROJOS,FRUTOS ROJOS"
+Agregue esta description "Pagina dedicada a ver los productos"
+
+contacto.html
+Agregue estas keywords "REDES,SOCIALES,REDES SOCIALES,INSTAGRAM,FACEBOOK,DONDE,ENCONTRARNOS,DONDE ENCONTRARNOS"
+Agregue esta description "Pagina dedicada para poder contactarnos"
+
+nuestra-historia.html
+Agregue estas keywords "NUESTRA HISTORIA,HISTORIA,CORDOBA,CORDOBA CAPITAL,PASTELERA,FAMILIA,AMIGOS"
+Agregue esta description "Pagina dedicada para dar a conocer nuestra historia"
+
+realiza-tu-pedido.html
+Agregue estas keywords "INFORMACION,INFORMACION PERSONAL,COMENTARIOS,FORMULARIO"
+Agregue esta description "Pagina dedicada para poder realizar un pedido"
+
+Optimizacion de imagen fondo2.jpg
+Optimizacion de imagen fondo3.jpg
+Optimizacion de imagen galletitas-agus.jpg
+Optimizacion de imagen logo.jpg
+Optimizacion de imagen mujer-con-torta.jpg
+Optimizacion de imagen torta-dinosaurio.jpg
+Optimizacion de imagen torta-hamburguesa.jpg
+Optimizacion de imagen torta-mica.jpg
+Optimizacion de imagen clasica1.jpg
+Optimizacion de imagen clasica2.jpg
+Optimizacion de imagen clasica3.jpg
+Optimizacion de imagen clasica4.jpg
+Optimizacion de imagen clasica5.jpg
+Optimizacion de imagen clasica6.jpg
+
+
+
