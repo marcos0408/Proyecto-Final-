@@ -159,36 +159,72 @@ h2, h3 {
     grid-template-areas: "menu cabeza cabeza" "menu seccion1 pepe" "menu seccion2 pepe" "menu pie pie";
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    background-color: green; } }
+    background-color: #f8d7c8; }
+  body {
+    width: 1200px; }
+  header {
+    width: 1200px; }
+  footer {
+    width: 1200px; }
+  html {
+    width: 1200px; } }
 
 @media (max-width: 767px) {
   body {
-    background-color: green; }
+    background-color: #f8d7c8; }
   #grilla {
     display: grid;
     grid-template-areas: "menu cabeza cabeza" "menu seccion1 pepe" "menu seccion2 pepe" "menu pie pie";
     grid-column-gap: 10px;
-    grid-row-gap: 10px; } }
+    grid-row-gap: 10px; }
+  body {
+    width: 767px; }
+  header {
+    width: 767px; }
+  footer {
+    width: 767px; }
+  html {
+    width: 767px; } }
 
 @media (min-width: 577px) and (max-width: 992px) {
   body {
-    background-color: green; }
+    background-color: #f8d7c8; }
   #grilla {
     display: grid;
     grid-template-areas: "menu cabeza cabeza" "menu seccion1 pepe" "menu seccion2 pepe" "menu pie pie";
     grid-column-gap: 10px;
-    grid-row-gap: 10px; } }
-
-@media (max-width: 576px) {
+    grid-row-gap: 10px; }
   body {
-    background-color: green;
-    width: auto;
-    height: auto; }
-  #grilla {
-    display: grid;
-    grid-template-areas: "menu cabeza cabeza" "menu seccion1 pepe" "menu seccion2 pepe" "menu pie pie";
-    grid-column-gap: 10px;
-    grid-row-gap: 10px; } }
+    width: 992px; }
+  header {
+    width: 992px; }
+  footer {
+    width: 992px; }
+  html {
+    width: 992px; } }
+
+@media (max-width: 600px) {
+  body {
+    background-color: #f8d7c8; }
+  .colorPrincipal {
+    border: 15px solid #81004b;
+    width: 500px; }
+  body {
+    width: 600px; }
+  header {
+    width: 600px; }
+  footer {
+    width: 600px; }
+  html {
+    width: 600px; }
+  .imagenHeader img {
+    width: 370px;
+    border-radius: 10px; }
+  .descripcionHeader p {
+    text-align: center; }
+  .descripcionHeader {
+    padding-left: 1px;
+    padding-right: 1px; } }
 
 .centrarBloque {
   text-align: center;
@@ -410,3 +446,114 @@ footer {
 .imagenesCatalogo {
   padding: 10px 0px;
   border-radius: 45px 45px 45px 45px; }
+
+.fija {
+  width: 100%; }
+
+.biografia {
+  border: 15px solid #302f2f;
+  background-color: #302f2f;
+  border-radius: 45px 45px 45px 45px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.imagenHeader {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.descripcionHeader {
+  text-align: center; }
+
+.descripcionHeader p {
+  color: #f8d7c8; }
+
+.imagenHeader img {
+  border-radius: 30px;
+  border: 5px solid #f8d7c8; }
+
+.boxUBI {
+  border: 15px solid #302f2f;
+  background-color: #302f2f;
+  border-radius: 45px 45px 45px 45px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.tituloUBI {
+  text-align: center;
+  color: #f8d7c8;
+  font-size: 50px;
+  padding-top: 30px;
+  font-style: normal;
+  padding-bottom: 30px; }
+
+.iframeBOX {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.mapa {
+  border: 5px solid #f8d7c8;
+  border-radius: 50px; }
+
+.horario {
+  color: #f8d7c8;
+  font-size: 25px;
+  line-height: 90px;
+  text-align: center; }
+
+.boxHORA {
+  border: 15px solid #302f2f;
+  background-color: #302f2f;
+  border-radius: 45px 45px 45px 45px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.boxFORM {
+  border: 15px solid #302f2f;
+  background-color: #302f2f;
+  border-radius: 45px 45px 45px 45px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.llenar {
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #f8d7c8;
+  outline: none;
+  background-color: #cccbcb;
+  padding: 1rem 1rem;
+  margin-bottom: 25px;
+  transition: .5s;
+  border-radius: 15px; }
+
+.llenar:hover {
+  background-color: white; }
+
+.llenar:focus {
+  border: 2px solid #81004b; }
+
+textarea {
+  min-height: 150px; }
+
+.boton {
+  text-align: center;
+  background-color: #81004b;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 30px; }
+
+.boton:hover {
+  background-color: green; }

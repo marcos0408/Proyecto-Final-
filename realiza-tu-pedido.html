@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" />
     <meta name="description" content="Pagina dedicada para poder realizar un pedido">
     <meta name="keywords" content="INFORMACION,INFORMACION PERSONAL,COMENTARIOS,FORMULARIO">
 </head>
@@ -23,41 +23,22 @@
         <li><a href="realiza-tu-pedido.html">Realiza tu pedido</a></li>
     </ul>
 </nav>
-<hr>
-<form>
-    <fieldset class="legend2">
-        <legend> Informacion Personal</legend>
-        <input type="text" name="Nombre" placeholder="Nombre y apellido"> <br>
-        <input type="email" name="Correo" placeholder="Correo electronico"> <br>
-        <label for="comentarios">Comentarios </label> <br>
-        <textarea name="comentarios" rows="4" cols="20"> </textarea>
-        <br>
-        <p>Hombre</p>
-        <input type="radio" name="Sexo" value="hombre"/>
-            <p>Mujer</p>
-        <input type="radio" name="Sexo" value="mujer" />
-            <p>Prefiere no decir</p>
-        <input type="radio" name="Sexo" value="x" />
-        <br>
-        <br>
-            <select name="Zona">
-                <option value="Oeste">Zona Oeste</option>
-                <option value="Sur">Zona Sur</option>
-                <option value="Norte">Zona Norte</option>
-                <option value="Capital Federal">Capital Federal</option>
-            </select>
-            <p>Aceptar terminos y condiciones</p>
-            <input type="checkbox" name="acepta" value="1" />
-    </fieldset>
-  
-        <div class="legend2"><input type="submit" value="Enviar formulario"></div>
-        <div class="legend2"><input type="reset" value="Limpiar formulario"></div>
-    </form>
+<form class="boxFORM">
+    <div class="d-flex flex-column">
+         <h4 class="tituloUBI">Hacenos tu pedido</h4>
+         <input type="text" class="llenar" id="name" placeholder="Nombre y Apellido">
+         <input type="email" class="llenar" id="email" placeholder="Email">
+        <input type="tel" class="llenar" id="number" placeholder="Tu numero">
+        <input type="adress" class="llenar" id="adress" placeholder="Direccion">
+        <textarea placeholder="Mensaje" class="llenar"></textarea>
+        <button type="submit" class="boton">Enviar</button>
+    </div>
+</form>
     <footer>
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo">
-                    <img src="Images/logo-magtimus.png" alt="">
+                    <img class="img1" src="Imagenes/logo.png" alt="logo de la marca">
                 </div>
                 <div class="terms">
                     <p>© Calle 123 4040</p>
@@ -83,6 +64,7 @@
             <hr>
             <p>Todos los derechos reservados © 2021 <b>Marcos Herrera</b></p>
         </div>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
     integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
     crossorigin="anonymous"></script>
